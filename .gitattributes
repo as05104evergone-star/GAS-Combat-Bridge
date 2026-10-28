@@ -1,0 +1,16 @@
+# 统一按文本处理，换行在提交时归一化为 LF
+* text=auto
+
+*.uplugin  text
+*.uproject text
+*.ini      text
+*.cs       text
+*.h        text
+*.cpp      text
+*.md       text
+*.txt      text
+
+# 图片保持二进制
+*.png binary
+*.jpg binary
+*.gif binary

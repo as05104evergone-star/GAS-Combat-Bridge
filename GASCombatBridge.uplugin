@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1.0",
+	"FriendlyName": "GAS 战斗桥接（纯蓝图版）",
+	"Description": "把虚幻引擎 Gameplay Ability System（GAS）的核心战斗功能包装成中文蓝图节点，让不会 C++ 的战斗策划也能完成：技能挂载与激活、属性集与属性读写、效果(GE)施加、标签判定、冷却与层数查询、连招段数、属性变化监听、技能动态标签、运行时战斗调试面板。",
+	"Category": "Gameplay",
+	"CreatedBy": "GASCombatBridge",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GASCombatBridge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GASCombatBridgeEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		}
+	]
+}
